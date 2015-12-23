@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_bg" translatesAutoresizingMaskIntoConstraints="NO" id="ry8-PE-BLX">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="568" id="S7c-UW-dl5"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UIM-yI-rez">
+                                <rect key="frame" x="7" y="179" width="43" height="45"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="43" id="Kij-mS-yTE"/>
+                                    <constraint firstAttribute="height" constant="45" id="WRd-Lw-lDq"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b0y-3b-vbN">
+                                <rect key="frame" x="3" y="237" width="51" height="51"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.2156862745" blue="0.027450980390000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="51" id="1Sl-nG-0ai"/>
+                                    <constraint firstAttribute="height" constant="51" id="l7I-Yb-cLG"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M2q-EB-eVT">
+                                <rect key="frame" x="92" y="413" width="138" height="95"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="138" id="EaW-ds-TTf"/>
+                                    <constraint firstAttribute="height" constant="95" id="xH5-S6-Sqk"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uct-pZ-xzy">
+                                <rect key="frame" x="238" y="431" width="74" height="58"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.2156862745" blue="0.027450980390000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="74" id="3wy-Lb-J9C"/>
+                                    <constraint firstAttribute="height" constant="58" id="EC9-cG-fX0"/>
+                                </constraints>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UIM-yI-rez" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-82.5" id="DX5-9A-bZ8"/>
+                            <constraint firstAttribute="trailing" secondItem="ry8-PE-BLX" secondAttribute="trailing" id="I2z-fm-O1R"/>
+                            <constraint firstItem="M2q-EB-eVT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MY2-1F-ahk"/>
+                            <constraint firstItem="UIM-yI-rez" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="7" id="NNx-55-6m6"/>
+                            <constraint firstItem="M2q-EB-eVT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="176.5" id="YC0-y1-ctW"/>
+                            <constraint firstItem="b0y-3b-vbN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="3" id="YT1-9c-PdV"/>
+                            <constraint firstItem="b0y-3b-vbN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-21.5" id="eUM-KN-85i"/>
+                            <constraint firstItem="Uct-pZ-xzy" firstAttribute="centerY" secondItem="M2q-EB-eVT" secondAttribute="centerY" id="fmJ-Ka-pMy"/>
+                            <constraint firstItem="Uct-pZ-xzy" firstAttribute="baseline" secondItem="M2q-EB-eVT" secondAttribute="firstBaseline" id="iN4-gZ-92a"/>
+                            <constraint firstItem="ry8-PE-BLX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tXq-BA-iN8"/>
+                            <constraint firstItem="Uct-pZ-xzy" firstAttribute="leading" secondItem="M2q-EB-eVT" secondAttribute="trailing" constant="8" symbolic="YES" id="xfR-7z-gSA"/>
+                            <constraint firstItem="ry8-PE-BLX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xpc-wb-zJ8"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="297"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="home_bg" width="640" height="1136"/>
+    </resources>
+</document>
